@@ -24,4 +24,4 @@ __Use the following command to run the prologue on command line:__
 >
 
 _As: Use comend line to run desired commands._
-_Put all the prologue files (**.pl**) file in **src* directory._
+_Put all the prologue files (**.pl**) file in **src** directory._
