@@ -44,7 +44,7 @@ __While using very first time:__
 __Use the following command to run the prolog on command line:__
 > **Once the image is created, we are good to go ahead to run it, whenever needed.**
 > ```
-> docker run -it --rm ai_prolog
+> docker run -it --rm prolog-programming_prolog
 > ```
 > 
 > Here
