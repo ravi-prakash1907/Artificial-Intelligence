@@ -6,7 +6,7 @@
 #### (A) Without 'docker-compose.yml'
 __While using very first time:__
 >
-> 1. Navigate to the *AI* directory.
+> 1. Navigate to the *Prolog-Programming* directory.
 > 2. Run the following command -
 > ```
 > docker build . -t prolog
@@ -33,13 +33,13 @@ _Put all the prolog files (**.pl**) file in **src** directory._
 #### (B) Using 'docker-compose.yml'
 __While using very first time:__
 >
-> 1. Navigate to the *AI* directory.
+> 1. Navigate to the *Prolog-Programming* directory.
 > 2. Run the following command -
 > ```
 > docker-compose build --no-rm prolog
 > ```
 > This command builds an image using the Dockerfile i.e. already present in this directory.
-> Here **--no-rm** used not to remove the intermediate containers that are also build during creating this image named *ai_prolog*
+> Here **--no-rm** used not to remove the intermediate containers that are also build during creating this image named *prolog-programming_prolog*
 > 
 __Use the following command to run the prolog on command line:__
 > **Once the image is created, we are good to go ahead to run it, whenever needed.**
