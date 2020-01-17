@@ -182,3 +182,82 @@ people(X) :-
    have_lungs(X),
    omnivorous(X),
    format("~w may wear hat", [X]).
+
+
+/************************************/
+
+/**   Recursion   **/
+
+/*non recursive*/
+related(X, Y) :- 
+   parent(X, Y)
+
+/*recursive*/
+related(X, Y) :-
+   parent(X, Z),
+   related(Z, Y)
+
+
+/*****   Lists   *****/
+
+/*
+  used if has unknown no. of elements
+  
+    | used to add
+*/
+add_albert_in_list :-
+    write([albert|[bob, michel]]), nl.
+
+
+List is ["male", "female", "other"].
+get_len_of_list(List) :-
+    length(List, X),
+    write(X).
+
+/*
+    H = "male"
+    T = ["female", "other"]
+*/
+print_head_tail(List) :-
+    [H|T] = List,
+    write(H), nl, write(T).
+
+add_to_tail(List) :-
+    [A, B, C|T] = ["me", "you", "none"],
+    write(A), nl, write(B), nl, write(C).
+
+/*   using anonymus var in lists   */
+/*
+    List = ["male", "female", "other"]
+*/
+use_ann(List) :-
+    [_, Y, _|T] = List,
+    write(Y).
+
+
+/*******************************/
+/**     Strings     **/
+
+/*  makes a list of len 4 having ASCII val for char in 'Ravi'   */
+X = name('Ravi').
+
+
+/*  
+
+    as above X is a list of ASCII char,
+    to pring the string...
+*/
+name(Stringgg, X).
+/* Stringgg = 'Ravi' */
+
+
+/*  Joining/Appending strings  */
+Str1 is 'Ravi'.
+Str2 is 'Prakash'.
+Str3 is 'Tripathi'.
+
+Str is join_str(Str1, Str2, Str3).
+write(Str).
+
+/* stores length (here 4) into Len */
+write(atom_length('Ravi', Len)).
