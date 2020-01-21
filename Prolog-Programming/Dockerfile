@@ -2,7 +2,7 @@
 
 FROM swipl
 
-RUN apt-get update
+# RUN apt-get update
 
 # copies all the files form 'src' directory to the current directory of the Prologues' comtainer
 COPY src/* ./
