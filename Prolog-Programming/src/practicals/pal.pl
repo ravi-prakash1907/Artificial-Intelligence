@@ -1,9 +1,5 @@
 /*  Palindrome  */
 
-/*   
-    1) reverse the list
-    2) compare 2 lists
-    */
 pal(L) :-
     reverse(L, Reversed),
     check(L, Reversed).
