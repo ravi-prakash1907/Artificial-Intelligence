@@ -53,4 +53,5 @@ __Use the following command to run the prolog on command line:__ <br />
 >
 
 <hr />
+
 [_visit here_](Prolog-Programming) _for a quick walkthrough with ```prolog```_
