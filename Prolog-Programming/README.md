@@ -84,17 +84,13 @@ _Reading_ :
 >  /*   function below ain't inbuilt    */
 >  process_stream(Char, Stream),   
 >  close(Stream).
-
- <br />
-
+> 
 >  /*   defining process_stream(Char, Stream)   */
-
- <br />
- 
+> 
 >  /*   if file has ended   */
 >  process_stream(end_of_file, _) :-
 >      !.
-
+> 
 >  /*   what to do after reading char??   */
 >  process_stream(Char, Stream) :-
 >      write(Char),
