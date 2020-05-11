@@ -28,7 +28,7 @@ __Use the following command to run the prolog on command line:__ <br />
 _As: Use comend line to run desired commands._ <br />
 _Put all the prolog files (**.pl**) file in **src** directory._ <br />
 
-<br /> <hr />
+<hr />
 
 #### (B) Using 'docker-compose.yml'
 __While using very first time:__ <br />
