@@ -1,3 +1,5 @@
+/*  Que = 3  */
+
 /*  Calculator  */
 find_fact(Num, Fact) :-
     Num > 1 -> (

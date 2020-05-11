@@ -1,3 +1,5 @@
+/*  Que = 10  */
+
 /* list L includes Num 
 
 L be [H|T] 

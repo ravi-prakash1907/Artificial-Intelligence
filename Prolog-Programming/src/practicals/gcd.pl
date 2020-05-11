@@ -1,3 +1,5 @@
+/*  Que =  5 */
+
 /*  GCD  */
 
 arrange(A, B, Val1, Val2) :-

@@ -1,3 +1,5 @@
+/*  Que = 4  */
+
 noFib(X, Temp) :-
   X > 1 -> (
         Y is X-1,

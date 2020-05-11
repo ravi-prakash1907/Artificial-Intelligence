@@ -1,3 +1,5 @@
+/*  Que = 15  */
+
 /*  List is Even or Odd -- T/F  */
 evenLen([]).
     

@@ -1,3 +1,5 @@
+/*  Que = 14  */
+
 adder([], Sum) :-
     Sum is 0.
 

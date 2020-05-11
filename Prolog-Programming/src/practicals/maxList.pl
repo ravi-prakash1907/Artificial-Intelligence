@@ -1,3 +1,5 @@
+/*  Que = 18  */
+
 maxlist([H],H).
 
 maxlist([H|T],M):-

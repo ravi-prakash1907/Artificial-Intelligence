@@ -1,3 +1,5 @@
+/*  Que = 20  */
+
 sublist([],L):-
     write("It is a sublist.").
 

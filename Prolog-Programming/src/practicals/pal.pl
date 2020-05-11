@@ -1,3 +1,5 @@
+/*  Que = 13  */
+
 /*  Palindrome  */
 
 pal(L) :-

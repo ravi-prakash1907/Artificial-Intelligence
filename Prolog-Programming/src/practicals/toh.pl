@@ -1,3 +1,5 @@
+/*  Que = 8  */
+
 power(Num,1,Num).
 
 power(Num,Pow,Ans):-

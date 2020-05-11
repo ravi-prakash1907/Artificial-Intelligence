@@ -1,3 +1,5 @@
+/*  Que = 12  */
+
 /*  TO BE EDITED    */
 revList([]) :-
     write("List is Empty!!"), nl.

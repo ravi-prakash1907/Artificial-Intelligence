@@ -1,3 +1,5 @@
+/*  Que = 6  */
+
 /* X^Y */
 power(X, X2, Y, Result) :-
     Y = 0 ->
