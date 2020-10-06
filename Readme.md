@@ -1,5 +1,10 @@
 # A repository for Artificial Intelligance (AI) 
-## B.Sc. (Hons.) Computer Science
+## B.Sc. (Hons.) Computer Science  
+
+## Practical List  
+Click here to see the [practical list](Prolog-Programming/src/practicals/LIST%20OF%20PRACTICALS%20SEM%20VI.pdf)  
+
+---
 
 ### To run Prolog commend line:
 
