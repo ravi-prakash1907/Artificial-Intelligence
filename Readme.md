@@ -1,24 +1,24 @@
-# A repository for Artificial Intelligance (AI) 
+# A repository for Artificial Intelligance (AI)   
 ## B.Sc. (Hons.) Computer Science  
 
-## Practical List  
-Click here to see the [practical list](Prolog-Programming/src/practicals/LIST%20OF%20PRACTICALS%20SEM%20VI.pdf)  
+## Practical List    
+Click here to see the [practical list](Prolog-Programming/src/practicals/LIST%20OF%20PRACTICALS%20SEM%20VI.pdf)    
 
 ---
 
-### To run Prolog commend line:
+### To run Prolog commend line:  
+  
+#### (A) Without 'docker-compose.yml'  
+__While using very first time:__ 
 
-#### (A) Without 'docker-compose.yml'
-__While using very first time:__ <br />
-> <br />
-> 1. Navigate to the *Prolog-Programming* directory.
-> 2. Run the following command -
-> ```
-> docker build . -t prolog
-> ```
-> This command builds an image using the Dockerfile i.e. already present in this directory. <br />
-> Here **-t** tags the image i.e. gives an *alternative name to the image* that is being build. It helps it identify the image easily rather than using its id. <br />
->  <br />
+> 1. Navigate to the *Prolog-Programming* directory.   
+> 2. Run the following command -  
+> ```  
+> docker build . -t prolog  
+> ```  
+> This command builds an image using the Dockerfile i.e. already present in this directory.  
+> Here **-t** tags the image i.e. gives an *alternative name to the image* that is being build. It helps it identify the image easily rather than using its id.  
+
 __Use the following command to run the prolog on command line:__ <br />
 > **Once the image is created, we are good to go ahead to run it, whenever needed.** <br />
 > ```
