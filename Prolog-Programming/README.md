@@ -31,6 +31,7 @@
 >   afact(first, second).  
 >   afact(first, X).  
 > ```  
+>  
 >           it returns ---->   X = second   
 > 5. Operators:  
 >           **=** _Equals_ : alice = alice (TRUE)   
