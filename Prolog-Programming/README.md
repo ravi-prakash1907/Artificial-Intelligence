@@ -1,65 +1,67 @@
 ## Intro  to Prolog
 
 ### Loading a prolog database/knowledgebase:
-1. ```[dbname].```
-2. ```consult('dbname.pl').```
+1. ```[dbname].```  
+2. ```consult('dbname.pl').```  
 
-### Tracing or Debugging:
-*Steps:-*
-1. load the database
-2. run ```trace.```
-3. run commands normally
-4. run ```notrace.``` or ```nodebug.``` to go normally
+### Tracing or Debugging:  
+*Steps:-*  
+1. load the database  
+2. run ```trace.```  
+3. run commands normally  
+4. run ```notrace.``` or ```nodebug.``` to go normally  
 
-### Importent terms:
-> 1. Pradicates:
->           A fact/prodicate is a type of the _clause_ that defines a over 2 given atoms. Simply a fact is a relationship of atom1 with atom2 <br />
->           **Syntax:** ``` pradicate(atom1, atom2). ``` <br />
-> 2. Atom:
->           An atom **starts** with *lower case letter* <br />
->           Can contain - Alphabets, Numbers, + - _ * / < >  <br />
->           White space are effective if put into quotes eg. ``` 'romeo juliet' ``` <br />
-> 3. Rule:
->           Comes into play when a fact is depends upon some other facts <br />
->           A rule is used to defile a condition. <br />
->           **Syntax:** ``` <condition> :- <action> ``` <br />
-> 4. Variables: 
->           A variable stores a value like atoms <br />
->           **starts** with *upper case letter* <br />
->           Eg. ``` afact(first, second). <br />
-> <br />
->                   afact(first, X).``` <br />
->                   it returns ---->   X = second <br />
-> 5. Operators: 
->           **=** _Equals_ : alice = alice    (TRUE) <br />
->           **\+** _Not-Equals_ : \+ (3 = 4)    (TRUE) <br />
->           **>** _Greater_ : 3 > 15    (FALSE) <br />
->           **<**, **=<**, **>=** <br />
->           **one(X, q) = one(r, Y)** : Gives ->  X = r, Y = q <br />
->           **=:=** _Equality of Expression_ : 5+4 =:= 4+5.  (TRUE) <br />
->           **=\=** _Non-Equality of Expression_ : 5+4 =:= 4+5.  (False) <br />
->           **;** _OR_ : 5 > 100 ; 10 < 100>.  (TRUE) <br />
->           **,** _AND_ : 5 > 100 , 10 < 100>.  (FALSE) <br />
-> 6. Others: 
->           **is** _Assignment_ : Var is 10  (assigns 10 to Var) <br />
->           **+**, **-**,  <br />
->           **/** _Devision_ : gives decimal result <br />
->           **//** _Devision_ : gives result without decimal <br />
->           __*__, __**__ <br />
-> 7. Functions: 
->           **mod(A, B)** _Remainder_ : mod(7, 5)    (gives 2) <br />
->           **random(A, B, X)** : generates a random b/w A and B (including A and B), and stores in X <br />
->           **between(A, B, X)** : generates all possible from A to B, and stores in X <br />
->           **succ(A, X)** _Increment by one_: similar to X = A++; in C++ <br />
->           **abs()** _Absolute val._ : X is abs(-4) (assigns 4 to X) <br />
->           **max(A, B)** : max val b/w A and B <br />
->           **min(A, B)** : min val b/w A and B <br />
->           **round(Num)** _For floats_ :  round(12.763) gives 13 <br />
->           **truncate(Num)** _Remove Decimal_ : truncate(12.98) gives 12 <br />
->           **floor()**, **ceiling()**, **sqrt()**, **sin()** ...., **asin()** ...., **log()**, **log10()**, **exp**, **pi**, **e**
+### Importent terms:  
+> 1. Pradicates:  
+>           A fact/prodicate is a type of the _clause_ that defines a over 2 given atoms. Simply a fact is a relationship of atom1 with atom2  
+>           **Syntax:** ``` pradicate(atom1, atom2). ```  
+> 2. Atom:  
+>           An atom **starts** with _lower-case letter_  
+>           Can contain - Alphabets, Numbers, + - _ * / < >  
+>           White space are effective if put into quotes eg. ```'romeo juliet'```  
+> 3. Rule:  
+>           Comes into play when a fact is depends upon some other facts  
+>           A rule is used to defile a condition.  
+>           **Syntax:** ```<condition> :- <action>```  
+> 4. Variables:  
+>           A variable stores a value like atoms   
+>           **starts** with _upper-case letter_  
+>           Eg.  
+> ```  
+>   afact(first, second).  
+>   afact(first, X).  
+> ```  
+>           it returns ---->   X = second   
+> 5. Operators:  
+>           **=** _Equals_ : alice = alice (TRUE)   
+>           **\+** _Not-Equals_ : \+ (3 = 4) (TRUE)  
+>           **>** _Greater_ : 3 > 15 (FALSE)  
+>           **<**, **=<**, **>=**  
+>           **one(X, q) = one(r, Y)** : Gives ->  X = r, Y = q  
+>           **=:=** _Equality of Expression_ : 5+4 =:= 4+5. (TRUE)  
+>           **=\=** _Non-Equality of Expression_ : 5+4 =:= 4+5. (False)  
+>           **;** _OR_ : 5 > 100 ; 10 < 100>. (TRUE)  
+>           **,** _AND_ : 5 > 100 , 10 < 100>. (FALSE)  
+> 6. Others:  
+>           **is** _Assignment_ : Var is 10 (assigns 10 to Var)  
+>           **+**, **-**,  
+>           **/** _Devision_ : gives decimal result  
+>           **//** _Devision_ : gives result without decimal  
+>           __*__, __**__  
+> 7. Functions:   
+>           **mod(A, B)** _Remainder_ : mod(7, 5) (gives 2)   
+>           **random(A, B, X)** : generates a random b/w A and B (including A and B), and stores in X  
+>           **between(A, B, X)** : generates all possible from A to B, and stores in X  
+>           **succ(A, X)** _Increment by one_: similar to X = A++; in C++  
+>           **abs()** _Absolute val._ : X is abs(-4) (assigns 4 to X)  
+>           **max(A, B)** : max val b/w A and B  
+>           **min(A, B)** : min val b/w A and B  
+>           **round(Num)** _For floats_ : round(12.763) gives 13  
+>           **truncate(Num)** _Remove Decimal_ : truncate(12.98) gives 12  
+>           **floor()**, **ceiling()**, **sqrt()**, **sin()** ...., **asin()** ...., **log()**, **log10()**, **exp**, **pi**, **e**  
   
 <hr />
-
+  
 ### Interacton:
 >  ```
 >  write()         --->    outputs
