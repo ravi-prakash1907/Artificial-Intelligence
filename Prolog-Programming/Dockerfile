@@ -4,6 +4,6 @@ FROM swipl
 
 COPY src/* ./
 
-MAINTAINER ravi <raviprakashravi.cf>
+MAINTAINER ravi <raviprakash.cf>
 
 # build an image using --->     docker build . <Tag or Name of img>
