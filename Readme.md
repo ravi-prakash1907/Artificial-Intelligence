@@ -1,5 +1,7 @@
 # A repository for Artificial Intelligance (AI)   
-## B.Sc. (Hons.) Computer Science  
+
+![banner](./assets/banner.png)  
+A series of programs implemented in `prolog`  
 
 ## Practical List    
 Click here to see the [practical list](Prolog-Programming/src/practicals/LIST%20OF%20PRACTICALS%20SEM%20VI.pdf)    
